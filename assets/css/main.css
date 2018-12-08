@@ -2933,14 +2933,28 @@ input, select, textarea {
 				object-fit: cover;
 				object-position: center;
 				width: 100%;
+				border-radius: 5px;
+				border: 2px lightgray solid;
+				background-position: center;
+				
 			}
 
+			.gallery a .marginBtm{
+				margin-bottom: 85px;
+				
+			}
+			.gallery a .marginBtm--lg{
+				margin-bottom: 50px;
+				
+			}
 			.gallery a.landscape {
 				width: 100%;
+				
 			}
 
 				.gallery a.landscape img {
 					height: 30vw;
+					margin-top: -90px;
 				}
 
 			.gallery a.portrait img {
